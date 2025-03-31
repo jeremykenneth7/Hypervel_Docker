@@ -3,7 +3,7 @@
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
-## Instalasi
+## Installation
 
 1. **Clone the Repository**
 
@@ -33,7 +33,9 @@
 
 4. **Install Dependencies**
 
+    ```bash
     docker exec -it hypervel_app composer install
+    ```
 
 5. **Generate Application Key**
 
@@ -55,4 +57,6 @@
 
 Stopping the Application
 To stop the application, run:
-- `docker-compose down`
+    ```bash
+    docker-compose down
+    ```
