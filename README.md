@@ -55,8 +55,8 @@
     http://localhost:9501/
     ```
 
-Stopping the Application
-To stop the application, run:
+8. **Stopping The Application**
+
     ```bash
     docker-compose down
     ```
