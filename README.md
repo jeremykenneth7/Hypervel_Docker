@@ -43,10 +43,10 @@
     docker exec -it hypervel_app php artisan key:generate
     ```
 
-6. **Run Database Migrations**
+6. **Run the Application**
 
     ```bash
-    docker exec -it hypervel_app php artisan migrate
+    docker exec -it hypervel_app php artisan serve
     ```
 
 7. **Access the Application**

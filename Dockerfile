@@ -37,5 +37,5 @@ RUN chown -R www-data:www-data /var/www/html \
 # Expose port
 EXPOSE 9501
 
-# Automatically run php artisan serve
-CMD ["php", "artisan", "serve"]
+# Use a shell as the default command (no auto-start)
+CMD ["php-fpm"]
